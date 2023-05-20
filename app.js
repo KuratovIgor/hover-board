@@ -4,6 +4,7 @@ const SQUARES_NUMBER = 2108
 const colors = ['#67E667', '#7277D8', '#FFDA73', '#FF7373', '#5CCDC9']
 
 const setColor = (element) => {
+    console.log(123)
     const color = getRandomColor()
 
     element.style.backgroundColor = color
